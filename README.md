@@ -7,10 +7,10 @@ This is the backend API for the test application, built with Python and FastApi.
 ## Features
 - CRUD Note operations
 - Endpoints
-   ● GET /notes → list user’s notes
-   ● POST /notes → create a note
-   ● PUT /notes/{id} → update a note
-   ● DELETE /notes/{id} → delete a note
+   - GET /notes → list user’s notes
+   - POST /notes → create a note
+   - PUT /notes/{id} → update a note
+   - DELETE /notes/{id} → delete a note
 - Firebase Authentication
 - Firebase Database Integration
 
