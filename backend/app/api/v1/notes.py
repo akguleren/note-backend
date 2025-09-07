@@ -171,6 +171,7 @@ async def delete_note(note_id: str, current_user: dict = Depends(get_current_use
             )
 
     return MessageResponse(
+        type=True,
         message=result.message,
         detail=f"Note with ID {note_id} has been permanently deleted",
     )

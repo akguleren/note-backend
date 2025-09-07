@@ -17,5 +17,6 @@ class ServiceResponse(BaseModel, Generic[T]):
 
 
 class MessageResponse(BaseModel):
+    type: bool
     message: str
     detail: Optional[str] = None
